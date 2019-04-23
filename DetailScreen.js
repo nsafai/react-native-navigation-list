@@ -2,6 +2,12 @@ import React from 'react'
 import { View, Text, StyleSheet, ScrollView } from 'react-native'
 import DetailFeature from './DetailFeature'
 
+// This screen displays details about a breed. It takes 
+// in a breed object with all of the properties. Remember 
+// not all breeds have all or the same properties. 
+// To solve this we loop through all keys and display 
+// each key and it's value in a DetailFeature 
+
 const DetailScreen = (props) => {
   const { navigate, getParam, state } = props.navigation
   const { breed } = state.params

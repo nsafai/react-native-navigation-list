@@ -1,10 +1,12 @@
 # navigation-list-starter
 
-This a starter project for an inclass assignment at Make School. 
+This starter project that explores navigation in React Native. 
 
 The project uses React Native to display a list of Cat and Dog breeds and their ratings for various features of the breed. 
 
 The project uses the List and Detail navigation paradigm, or at least it will after you follow the instructions. 
+
+You can explore the project on your own reading the comments as you go. Start with App.js and follow the instructions. They walk you through the components used in the project. 
 
 The project contains the following components. 
 
